@@ -1,0 +1,50 @@
+body {
+  background-color: brown;
+  color: beige;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+h1 {
+  background-color: skyblue;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+  padding: 1em;
+  font-size: 5em;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h2 {
+  color: green;
+  letter-spacing: 0.1em;
+}
+.aside_header_div:hover > h3 {
+  animation-name: rotate;
+  transform-origin: 25%;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+a:link {
+  color: hsl(30, 70%, 70%);
+}
+
+a:visited {
+  color: hsl(25, 60%, 60%);
+}
+
+a:hover {
+  color: hsl(25, 90%, 90%);
+}
+
+a:active {
+  color: hsl(25, 100%, 100%);
+}
