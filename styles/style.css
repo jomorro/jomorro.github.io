@@ -1,6 +1,6 @@
 body {
   background-color: brown;
-  color: beige;
+  color:white;
 }
 
 article,
@@ -13,7 +13,7 @@ section {
 }
 
 h1 {
-  background-color: skyblue;
+  background-color: grey;
   text-shadow: 2px 2px 2px black;
   text-align: center;
   padding: 1em;
@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-  color: green;
+  color: black;
   letter-spacing: 0.1em;
 }
 .aside_header_div:hover > h3 {
@@ -47,4 +47,25 @@ a:hover {
 
 a:active {
   color: hsl(25, 100%, 100%);
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 250px;
+}
+
+img {
+    max-width: 350px;
+    max-height: 250px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
 }
